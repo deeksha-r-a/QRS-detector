@@ -1,4 +1,4 @@
-## Hybrid Analog–Digital QRS Detector
+# Hybrid Analog–Digital QRS Detector
 
 
 A complete ECG heartbeat detection system that combines analog signal conditioning with digital peak detection logic. The project demonstrates how biomedical signals can be processed through a hybrid workflow, from analog filtering and amplification to digital QRS complex detection using finite state machines.
@@ -17,7 +17,7 @@ Simulated using LTspice and Logisim Evolution.
 # System Overview
 
 
-Analog Stage
+## Analog Stage
 
 
 High-pass filtering for baseline drift removal.
@@ -25,7 +25,7 @@ Instrumentation amplification and low-pass filtering.
 Precision rectification and threshold comparison.
 
 
-Python Processing
+## Python Processing
 
 
 ECG data loading and resampling.
@@ -33,7 +33,7 @@ Signal normalization and 8-bit quantization.
 Generation of a Logisim-compatible ROM initialization file.
 
 
-Digital Stage
+## Digital Stage
 
 
 Sequential reading of ROM samples.
@@ -42,7 +42,7 @@ FSM-based validation to reduce false positives.
 LED pulse generation for confirmed QRS complexes.
 
 
-Tools Used
+## Tools Used
 
 
 LTspice
@@ -50,7 +50,7 @@ Python (NumPy)
 Logisim Evolution
 
 
-Learning Outcomes
+## Learning Outcomes
 
 
 ECG signal conditioning techniques
@@ -60,10 +60,12 @@ Biomedical signal processing workflows
 Integration of analog and digital subsystems
 
 
-Future Work
+## Future Work
 FPGA implementation for real-time operation.
 Adaptive thresholding for improved robustness.
 Integration with live ECG acquisition hardware.
+
+
 
 
 This project serves as an educational example of combining analog and digital design methodologies for biomedical instrumentation.
