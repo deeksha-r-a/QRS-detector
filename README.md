@@ -60,11 +60,6 @@ Biomedical signal processing workflows
 Integration of analog and digital subsystems
 
 
-## Future Work
-FPGA implementation for real-time operation.
-Adaptive thresholding for improved robustness.
-Integration with live ECG acquisition hardware.
-
 
 
 
